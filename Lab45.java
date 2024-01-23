@@ -10,8 +10,10 @@ public class Lab45 {
             i++;
         }
         System.out.println("String Length =" + i);
-        for(int j=i/2 ; j < i ; j++){
+        for (int j = i / 2; j < i; j++) {
             System.out.print(str.charAt(j));
         }
+        System.out.println();
+        System.out.println(str.substring(i / 2, i));
     }
 }
