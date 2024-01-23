@@ -11,7 +11,7 @@ public class Lab46 {
             else
             {
                 System.out.println("Error occured");
-                break;
+                return ;
             }
         }
         System.out.println("All is well");
