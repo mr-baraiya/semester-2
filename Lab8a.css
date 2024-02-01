@@ -1,0 +1,43 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	padding: 10px;
+}
+.header{
+	height: 100px;
+	width: 100%;
+	float: left;
+}
+.darshan{
+	height: 100px;
+	width: 300px;
+	float: left;;
+	background-size: 100%;
+	background-image: url(DU_Logo.svg);
+}
+.HeaderLink{
+	float: right;
+	width: 7%;
+	text-decoration: none;
+}
+.text{
+	margin-left: 1400px;
+}
+.ui{
+	height:500px;
+	width: 100%;
+	background-image: url(UI.png);
+	float: left;
+}
+.program{
+	color: blue;
+	text-align: center;
+	width: 280px;
+	height: 150px;
+	margin-left: 110px;
+	margin-right:110px;
+	float: left;
+	border-color: red;
+	margin-top: 10px;
+} 
