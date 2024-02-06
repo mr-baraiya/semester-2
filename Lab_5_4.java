@@ -5,7 +5,7 @@ Also create methods getAccountDetails() and displayAccountDetails().
 import java.util.*;
 
 class Bank_Account{
-    String accountNo;
+    double accountNo;
     String userName;
     String email;
     String accountType;
@@ -13,7 +13,7 @@ class Bank_Account{
 
     Bank_Account()
 	{
-		accountNo = null;
+		accountNo = 0.0;
 		userName = null;
 		email = null;
 		accountType = null;
@@ -24,7 +24,7 @@ class Bank_Account{
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter the Account number : ");
-        this.accountNo = sc.nextLine();
+        this.accountNo = sc.nextDouble();
         System.out.println("Enter the Account User Name  : ");
         this.userName = sc.nextLine();
         System.out.println("Enter the E-mail ID : ");
