@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab-9 Animantion</title>
+	<style type="text/css">
+		.div1{
+			animation-duration: 5s;
+			animation-name: color_change;
+			height: 300px;
+			width: 300px;
+			position: absolute;
+			animation-delay: 2s;
+		}
+		@keyframes color_change {
+			0%{
+				background-color: red;
+				left: 0px;
+				top: 0px;
+			}
+			25%{
+				background-color: #fc6203;
+			    left: 1600px;
+			    top: 0px;
+			}
+			50%{
+				background-color: #fc6203;
+				left: 1600px;
+			    top: 700px;
+			}
+			75%{
+				background-color: #fcbe03;
+				left: 0px;
+			    top: 700px;
+			}
+			100%{
+				background-color: yellow;
+				left: 0px;
+				top: 0px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="div1"></div>
+</body>
+</html>
