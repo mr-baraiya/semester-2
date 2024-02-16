@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
+.window{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+.Manue{
+    width: 30px;
+    float: right;
+    padding: 30px;
+    text-decoration: none;
+    text-align-last: center;
+}
+.Content{
+    width: 100%;
+    float: left;
+    border: 3px solid black;
+}
+.Sidebar{
+    width: 20%;
+    background-color: red;
+    text-align: center;
+    border: 2px solid #fa8d28;
+    height: 300px;
+}
+.SidebarManue{
+    width: 100%;
+    float: left;
+    color: black;
+    text-decoration: none;
+    height: 50px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    border: 2px solid #fa8d28;
+}
+.Darshan{
+    width: 100%;
+    float: left;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+@media (max-width: 900px){
+    .header{
+        width: 50%;
+        padding: 10px;
+    }
+    .window{
+        height: 100px;
+        width: 100%;
+        float: left;
+    }
+    .Manue{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        float: right;
+        padding: 30px;
+        text-decoration: none;
+        text-align-last: center;
+    }
+}
+@media (max-width: 400px){
+    .header{
+        width: 50%;
+        padding: 10px;
+    }
+    .window{
+        height: 100px;
+        width: 100%;
+        float: left;
+    }
+    .Manue{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        float: left;
+        padding: 30px;
+        text-decoration: none;
+        text-align-last: center;
+    }
+}
