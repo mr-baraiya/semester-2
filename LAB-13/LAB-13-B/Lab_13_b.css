@@ -1,0 +1,159 @@
+*{
+	box-sizing: border-box;
+}
+.Header{
+	padding: 1px;
+	float: left;
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.HeaderGuiter{
+	float: left;
+	padding: 2px;
+	width: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.fa-guitar{
+	color: white;
+	font-size: 40px;
+}
+.HeaderSoundAMP{
+	color: white;
+	float: right;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+.HTMLTemplates{
+	background-color: black;
+	border: none;
+	color: white;
+	margin-left: 210px;	
+	margin-right: 5px;
+}
+.MOREHTMLTemplates{
+	background-color: black;
+	border: none;
+	color: white;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.DoenloadNow{
+	border: none;
+	height: 40px;
+	width: 150px;
+	color: white;
+	background-color: deepskyblue;
+	border-radius: 45px;
+	font-family: sans-serif;
+	font-size: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.fa-brands{
+	color: deepskyblue;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 20px;
+}
+.content{
+	float: left;
+	width: 100%;
+	height: 700px;
+	background-color: grey;
+	padding: 20px;
+}
+.AllEventImg{
+	float: left;
+	background-image: url(backgroundimg.jpeg);
+	height: 150px;
+	width: 100%;
+}
+.AllEventText{
+	float: right;
+	color: white;
+	font-size: 30px;
+	font-family: cursive;
+	word-spacing: 5px;
+	letter-spacing: 2px;
+	margin-right: 20px;
+	margin-top: 40px;
+}
+.ContentFour{
+	float: left;
+	height: 400px;
+	width: 100%;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-top: 40px;
+	padding: 20px;
+}
+.ContentFour1{
+	width: 20%;
+	height: 350px;
+}
+.ContentFour1Img{
+	float: left;
+	background-image: url(img1.jpeg);
+	height: 200px;
+	width: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.ContentFour2Img{
+	float: left;
+	background-image: url(img4.jpeg);
+	height: 200px;
+	width: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.ContentFour3Img{
+	float: left;
+	background-image: url(img3.jpeg);
+	height: 200px;
+	width: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.ContentFour4Img{
+	float: left;
+	background-image: url(img2.jpg);
+	height: 200px;
+	width: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.ContentFour1Content{
+	background-color: white;
+	padding: 10px;
+	float: left;
+	height: 250px;
+	width: 250px;
+}
+.ContentFour1ContentText1{
+	text-align: center;
+	font-family: cursive;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.ContentFour1ContentText2{
+	margin-top: 20px;
+}
+.ContentFour1Button{
+	color: white;
+	background-color: deepskyblue;
+	border-radius: 45px;
+	width: 150px;
+	height: 50px;
+	margin: 30px;
+	text-align: center;
+}
