@@ -128,6 +128,15 @@ content{
 	font-size: 380px;
 	font-family: sans-serif;
 }
+.you_dont_know{
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+	margin-top: 610px;
+	margin-left: 440px;
+	position: absolute;
+	color: yellow;
+	font-size: 25px;
+}
 footer{
 	width: 100%;
 	height: 200px;
@@ -144,9 +153,8 @@ footer{
 }
 .footerbutton{
 	margin-top: 30px;
-	height: 30px;
+	height: 40px;
 	background-color: orange;
 	border-radius: 10px;
 	font-size: 30px;
-
 }
