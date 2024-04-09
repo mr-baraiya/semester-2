@@ -1,4 +1,4 @@
-/* De ne class for Complex number with real and imaginary as data members. Create its contructor, overload the constructors. 
+/* Define ne class for Complex number with real and imaginary as data members. Create its contructor, overload the constructors. 
 Also de ne addition method to add two complex objects. */
 import java.util.Scanner;
 class Complex_numbers{
