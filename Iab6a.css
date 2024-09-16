@@ -1,0 +1,49 @@
+*{
+	box-sizing: border-box;
+}
+.Page{
+	float: left;
+	width: 100%;
+	background-color: #11d0f2 ; 
+	padding: 10px;
+}
+.Header{
+	float: left;
+	width: 100%;
+	background-color: #ab11f2;
+	color: white;
+}
+.Content{
+	width: 100%;
+	float: left;
+	background-color: yellow;
+	height: 200px;
+	padding: 10px;
+}
+.MainContent{
+	float: left;
+	width: 100%;
+}
+.MainEntry{
+	width: 60%;
+	float: left;
+}
+.Entry{
+	width: 100%;
+	color: white;
+	background-color: black;
+	margin-top: 10px;
+}
+.Sidebar{
+	width: 30%;
+	float: right;
+	color: white;
+	background-color: black;
+	height: 80px;
+}
+.Darshan{
+	width: 100%;
+	float: left;
+	background-color: blue;
+	color: white;
+}

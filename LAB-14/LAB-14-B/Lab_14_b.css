@@ -1,0 +1,300 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	border: 50px solid #d1869e;
+	height: 1100px;
+}
+.div1{
+	float: left;
+	width: 50%;
+	height: 1001px;
+	background-color: #f5f5f5;
+	position: relative;
+	z-index: 2;
+}
+.div2{
+	float: right;
+	width: 40%;
+	height: 1001px;
+	position: relative;
+	z-index: 1;
+}
+.fa-bars{
+	float: left;
+	width: 100%;
+	font-size: 30px;
+	height: 10px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.fa-magnifying-glass{
+	float: left;
+	width: 100%;
+	font-size: 30px;
+	height: 10px;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+.backgrondimg{
+	float: left;
+	background-image: url(pellow.png);
+	background-attachment: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+	margin-top: 100px;
+	z-index: 2;
+}
+.fa-user{
+	float: left;
+	width: 100%;
+	font-size: 30px;
+	height: 10px;
+	margin-left: 20px;
+	margin-top: 150px;
+}
+.fa-bucket{
+	float: left;
+	width: 100%;
+	font-size: 30px;
+	height: 10px;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+.aerrowtext{
+	width: 100%;
+	height: 20px;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+.fa-arrow-left{
+	font-size: 15px;
+	color: blue;
+}
+.aerrowtextbox{
+	font-size: 15px;
+	color: blue;
+	margin-left: 10px;
+}
+.Bedroom{
+	color: #e3dadd;
+	float: left;
+	width: 100%;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+.College{
+	float: left;
+	width: 100%;
+	font-size: 50px;
+	font-weight: 800;
+	font-family: sans-serif;
+}
+.star{
+	height: 10px;
+	width: 100%;
+	float: left;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+.fa-star , .fa-star-half-stroke{
+	color: #9fb007;
+	font-size: 10px;
+}
+.textstar{
+	font-size: 20px;
+	margin-left: 20px;
+}
+.Select{
+	float: left;
+	width: 100%;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+.SelectQuality{
+	font-weight: 600;
+	width: 100%;
+	float: left;
+	font-size: 40px;
+	margin-top: 10px;
+}
+.Basic{
+	border: 2px solid black;
+	text-align: center;
+	font-size: 20px;
+	float: left;
+	width: 20%;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+.Premium{
+	border: 2px solid black;
+	text-align: center;
+	font-size: 20px;
+	float: left;
+	width: 20%;
+	margin-top: 10px;
+	background-color: #f5f5f5;
+	border-radius: 5px;
+}
+.Stylem{
+	border: 2px solid black;
+	text-align: center;
+	font-size: 20px;
+	float: left;
+	width: 30%;
+	margin-top: 10px;
+	border-radius: 20px;
+	margin-right: 10px;
+}
+.Color1{
+	float: left;
+	border-radius: 50%;
+	background-color: skyblue;
+	height: 30px;
+	width: 30px;
+	border: 2px solid black;
+	margin-right: 10px;
+}
+.Color2{
+	float: left;
+	border-radius: 50%;
+	background-color: black;
+	height: 30px;
+	width: 30px;
+	border: 2px solid black;
+	margin-right: 10px;
+}
+.Color3{
+	float: left;
+	border-radius: 50%;
+	background-color: grey;
+	height: 30px;
+	width: 30px;
+	border: 2px solid black;
+	margin-right: 10px;
+}
+.Color4{
+	float: left;
+	border-radius: 50%;
+	background-color: white;
+	height: 30px;
+	width: 30px;
+	border: 2px solid black;
+	margin-right: 10px;
+}
+.WhatSelect{
+	float: left;
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.what{
+	text-align: center;
+	font-size: 20px;
+	float: left;
+	width: 30%;
+	margin-top: 10px;
+	margin-right: 10px;	
+}
+.new{
+	border-bottom: 5px solid blue;	
+}
+.hr{
+	float: left;
+	width: 100%;
+}
+.Custmizable{
+	font-weight: 600;
+	width: 100%;
+	float: left;
+	font-family: sans-serif;
+	font-size: 25px;
+	margin-top: 30px;	
+}
+.kurti{
+	height: 300px;
+	width: 100%;
+	float: left;
+	margin-top: 30px;
+}
+.kurti1{
+	float: left;
+	background-image: url(kurti.jpeg);
+	background-size: cover;
+	height: 300px;
+	width: 30%;
+	z-index: 2;
+}
+.kurti2{
+	float: right;
+	width: 60%;
+	height: 300px;
+}
+.floter{
+	text-align: center;
+	position: fixed;
+	height: 150px;
+	width: 87%;
+	float: left;
+	border: 1px solid black;
+	background-color: white;
+	margin-top: 400px;
+	margin-left: 50px;
+	margin-right: 50px;
+	z-index: 10;
+	display: flex;
+	padding: 10px;
+}
+.floterimg{
+	float: left;
+	background-image: url(pellow.png);
+	background-size: cover;
+	width: 130px;
+	height: 130px;
+	border: 1px solid black;
+}
+.flotertext1{
+	width: 30%x;
+	height: 130px;
+	margin-left: 50px;
+}
+.flotertext1first{
+	font-size: 30px;
+	font-weight: 800;
+	margin-left: 50px;
+}
+.addons{
+	float: left;
+	width: 30%;
+	height: 130px;	
+}
+.flotertext1addons{
+	font-size: 30px;
+	font-weight: 800;
+}
+.fa-square-plus{
+	font-size: 30px;
+}
+.d195{
+	margin-left: 100px;
+	font-size: 50px;
+	margin-top: 20px;
+}
+.firstButton{
+	float: left;
+	margin-left: 20px;
+	background-color: #2e0673;
+	color: white;
+	height: 50px;
+	width: 20%;
+	border-radius: 40px;
+	margin-top: 20px;
+	font-size: 20px;
+}

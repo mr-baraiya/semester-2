@@ -1,0 +1,87 @@
+<!-- Create custom animation of your choice. -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab-9-B</title>
+	<style type="text/css">
+		.div1{
+			animation-duration: 5s;
+			animation-name: vishal;
+			background-image: url(download.jpeg);
+			background-repeat: no-repeat;
+			height: 300px;
+			width: 300px;
+			position: absolute;
+			animation-timing-function: ease-out;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+		}
+		@keyframes vishal {
+			0%{
+				/*background-color: red;*/
+				left: 0px;
+			}
+			100%{
+				/*background-color: yellow;*/
+				left: 1700px;
+			}
+		}
+		.div2{
+			display: inline-flex;
+			text-decoration: blink;
+			margin-top: 300px;
+			animation-duration: 5s;
+			animation-name: color_change;
+			text-align: center;
+			padding: 30px;
+			text-shadow: all;
+			height: 100px;
+			width: 100px;
+			position: absolute;
+			animation-timing-function: ease;
+			animation-iteration-count: infinite;
+			background-color: aqua;
+			border: 3px solid black;
+			font-size: 30px;
+			font-family: sans-serif;
+
+		}
+		@keyframes color_change {
+			0%{
+				left: 0px;
+				top: 0px;
+				border: 0px solid black;
+				border-radius: 10px;
+			}
+			25%{
+			    left: 1600px;
+			    top: 0px;
+			    border: 10px solid orange;
+			    border-radius: 20px;
+			}
+			50%{
+				left: 1600px;
+			    top: 500px;
+			    border: 20px solid pink;
+			    border-radius: 30px;
+			}
+			75%{
+				left: 0px;
+			    top: 500px;
+			    border: 30px solid red;
+			    border-radius: 40px;
+			}
+			100%{
+				left: 0px;
+				top: 0px;
+				border: 40px solid green;
+				border-radius: 50px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="div1"></div>
+	<div class="div2">Vishal Baraiya</div>
+</body>
+</html>

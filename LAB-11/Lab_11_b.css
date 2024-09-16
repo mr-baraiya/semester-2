@@ -1,0 +1,72 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	padding: 20px;
+}
+.MainDiv{
+	float: left;
+	width: 45%;
+	height: 900px;
+	padding: 50px;
+	background-color: #6705a3;
+	border: 2px solid black;
+	border-radius: 2%;
+}
+.row{
+	float: left;
+	width: 100%;
+}
+.gradient{
+	margin: 15px;
+	border-radius: 10%;
+	float: left;
+	height: 130px;
+	width: 25%;
+	/*background-image: linear-gradient(30deg,#0da305,#11ecf0,#9e11f0,#e511f0);*/
+}
+.div1{
+	background-image: linear-gradient(50deg,#0da307,#11fcf0,#9e11a0,#e511f0);
+}
+.div2{
+	background-image: linear-gradient(60deg,red,blue);
+}
+.div3{
+	background-image: linear-gradient(60deg,green,blue,black,yellow);
+}
+.div4{
+	background-image: linear-gradient(40deg,yellow,aqua,pink);
+}
+.div5{
+	background-image: linear-gradient(20deg,yellow,white);
+}
+.div6{
+	background-image: linear-gradient(20deg,pink,white,blue);
+}
+.div7{
+	background-image: linear-gradient(20deg,black,pink,white);
+}
+.div8{
+	background-image: linear-gradient(80deg,yellow,red);
+}
+.div9{
+	background-image: linear-gradient(70deg,pink,yellow,red,green);
+}
+.div10{
+	background-image: linear-gradient(20deg,purple,red,orange);
+}
+.div11{
+	background-image: linear-gradient(20deg,red,red,orange,white);
+}
+.div12{
+	background-image: linear-gradient(20deg,purple,green,orange,red);
+}
+.div13{
+	background-image: linear-gradient(50deg,pink,red,orange,green);
+}
+.div14{
+	background-image: linear-gradient(60deg,green,red,orange,purple,green);
+}
+.div15{
+	background-image: linear-gradient(70deg,purple,green,orange);
+}
